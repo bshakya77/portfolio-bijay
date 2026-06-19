@@ -1,7 +1,7 @@
 'use client'
 
 import { personalInfo } from '@/app/data/portfolio-data'
-import { Linkedin, BookOpen, Mail } from 'lucide-react'
+import { BookOpen, Linkedin, Mail } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -22,7 +22,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-sm text-foreground mb-3">Quick Links</h4>
             <div className="flex flex-col gap-2">
-              {['About', 'Experience', 'Projects', 'Skills', 'Contact'].map((item: string) => (
+              {['About', 'Experience', 'Education', 'Research', 'Skills'].map((item: string) => (
                 <button
                   key={item}
                   onClick={() => {
