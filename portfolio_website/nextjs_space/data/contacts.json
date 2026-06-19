@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1781816620402,
+    "name": "Test",
+    "email": "test@test.com",
+    "subject": "Test",
+    "message": "Hello",
+    "timestamp": "2026-06-18T21:03:40.402Z",
+    "status": "new"
+  }
+]
