@@ -148,24 +148,125 @@ export const certifications = [
 ];
 
 export const additionalCertifications = [
-  { name: "AI for Medical Treatment", issuer: "DeepLearning.AI", date: "Aug 2021", credentialId: null, link: "https://www.coursera.org/learn/ai-for-medical-treatment" },
-  { name: "Programming with Cloud IoT Platforms", issuer: "Coursera", date: "May 2021", credentialId: null, link: "https://coursera.org/learn/cloud-iot-platform/home/welcome" },
-  { name: "AWS IoT: Backend Development and Analytics", issuer: "Coursera", date: "Jun 2021", credentialId: null, link: "https://www.coursera.org/learn/aws-iot-backend" },
-  { name: "AWS IoT: Communication and Security", issuer: "Coursera", date: "Jun 2021", credentialId: null, link: "https://www.coursera.org/learn/aws-iot-communication" },
-  { name: "Neural Networks and Deep Learning", issuer: "DeepLearning.AI", date: "2020", credentialId: null, link: "https://www.coursera.org/learn/neural-networks-deep-learning" },
-  { name: "Improving Deep Neural Networks: Hyperparameter Tuning", issuer: "DeepLearning.AI", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/deep-neural-network-tuning" },
-  { name: "Structuring Machine Learning Projects", issuer: "DeepLearning.AI", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/machine-learning-projects" },
-  { name: "Convolutional Neural Networks", issuer: "DeepLearning.AI", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/convolutional-neural-networks" },
-  { name: "Sequence Models", issuer: "DeepLearning.AI", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/nlp-sequence-models" },
-  { name: "Machine Learning with Python", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/machine-learning-with-python" },
-  { name: "Introduction to Deep Learning & Neural Networks with Keras", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/introduction-to-deep-learning-with-keras" },
-  { name: "Deep Neural Networks with PyTorch", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/deep-neural-networks-with-pytorch" },
-  { name: "Computer Vision and Image Processing with IBM Watson", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/computer-vision-basics" },
-  { name: "Building Deep Learning Models with TensorFlow", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/building-deep-learning-models-with-tensorflow" },
-  { name: "AI Capstone Project with Deep Learning", issuer: "IBM", date: "2021", credentialId: null, link: "https://www.coursera.org/learn/ai-capstone-project-with-deep-learning" },
-  { name: "Intro to Machine Learning", issuer: "Kaggle", date: "Dec 2020", credentialId: null, link: "https://kaggle.com/learn/certification/bijshakya77/intro-to-machine-learning" },
-  { name: "Building Real-world Apps with ASP.NET Core & Angular", issuer: "Udemy", date: "Apr 2020", credentialId: "UC-03d39ee6", link: "https://udemy.com/certificate/UC-03d39ee6-c4ec-4aa0-b224-7f5fe47c05a4/" },
-  { name: "HTML, CSS and JavaScript", issuer: "Coursera", date: "Apr 2016", credentialId: "CN7SFW6ZZVSU", link: "https://coursera.org/account/accomplishments/verify/CN7SFW6ZZVSU" },
+  {
+    "name": "Programming with Cloud IoT Platforms",
+    "issuer": "Coursera",
+    "date": "May 2021",
+    "credentialId": "YWMEUCD0HX0H",
+    "link": "https://www.coursera.org/account/accomplishments/verify/YWMEUCD0HX0H"
+  },
+  {
+    "name": "Intro to Machine Learning",
+    "issuer": "Kaggle",
+    "date": "Dec 2020",
+    "credentialId": null,
+    "link": "https://www.kaggle.com/learn/certification/bijshakya77/intro-to-machine-learning"
+  },
+  {
+    "name": "Building a Real-world app with ASP.NET Core and Angular 4+",
+    "issuer": "Udemy",
+    "date": "Apr 2020",
+    "credentialId": "UC-03d39ee6-c4ec-4aa0-b224-7f5fe47c05a4",
+    "link": "https://www.udemy.com/certificate/UC-03d39ee6-c4ec-4aa0-b224-7f5fe47c05a4/"
+  },
+  {
+    "name": "HTML, CSS and JavaScript",
+    "issuer": "Coursera Course Certificates",
+    "date": "Apr 2016",
+    "credentialId": "CN7SFW6ZZVSU",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/CN7SFW6ZZVSU"
+  },
+  {
+    "name": "Fine-tuning Image Models with Diffusion",
+    "issuer": "Coursera Course Certificates",
+    "date": "Jun 2026",
+    "credentialId": "GJJY1HP46JJQ",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/GJJY1HP46JJQ"
+  },
+  {
+    "name": "Generative AI: Fine-Tuning LLMs and Diffusion Models",
+    "issuer": "Coursera Course Certificates",
+    "date": "March 2026",
+    "credentialId": "R9LR6E42TEJ4",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/R9LR6E42TEJ4"
+  },
+  {
+    "name": "Introduction to Computer Vision and Image Processing",
+    "issuer": "IBM",
+    "date": "Jan 2026",
+    "credentialId": "3N44PMLEVEF2",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/3N44PMLEVEF2"
+  },
+  {
+    "name": "Introduction to Computer Vision and Image Processing",
+    "issuer": "DeepLearning.AI",
+    "date": "Nov 2022",
+    "credentialId": "LNULJZSFE8E3",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/LNULJZSFE8E3"
+  },
+  {
+    "name": "Apply Generative Adversarial Network (GANs)",
+    "issuer": "DeepLearning.AI",
+    "date": "Oct 2022",
+    "credentialId": "F2U6KYF46BRD",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/F2U6KYF46BRD"
+  },
+  {
+    "name": "Build Better Generative Adversarial Networks (GANs)",
+    "issuer": "DeepLearning.AI",
+    "date": "Oct 2022",
+    "credentialId": "QHYVHKWWGEGJ",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/QHYVHKWWGEGJ"
+  },
+  {
+    "name": "Build Basic Generative Adversarial Networks (GANs)",
+    "issuer": "DeepLearning.AI",
+    "date": "Oct 2022",
+    "credentialId": "7DE5N48MRDB9",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/7DE5N48MRDB9"
+  },
+  {
+    "name": "Fundamentals of Machine Learning for Healthcare",
+    "issuer": "Stanford University",
+    "date": "Apr 2022",
+    "credentialId": "RHF5EJHAKV3L",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/RHF5EJHAKV3L"
+  },
+  {
+    "name": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "issuer": "DeepLearning.AI",
+    "date": "Apr 2022",
+    "credentialId": "58FJYLZU2Z5L",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/58FJYLZU2Z5L"
+  },
+  {
+    "name": "Deep Learning Essentials with Keras",
+    "issuer": "Coursera",
+    "date": "Feb 2022",
+    "credentialId": "d5273af6-2ee2-4c82-acd8-04ea0ec76dfd",
+    "link": "https://www.credly.com/badges/d5273af6-2ee2-4c82-acd8-04ea0ec76dfd"
+  },
+  {
+    "name": "Deep Neural Networks with PyTorch",
+    "issuer": "Coursera",
+    "date": "Feb 2022",
+    "credentialId": "20df1ccd-2068-40ec-a519-2fc71f6e37d5",
+    "link": "https://www.credly.com/badges/20df1ccd-2068-40ec-a519-2fc71f6e37d5"
+  },
+  {
+    "name": "Convolutional Neural Networks",
+    "issuer": "DeepLearning.AI",
+    "date": "Oct 2021",
+    "credentialId": "EUZ3RQNCVJMC",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/EUZ3RQNCVJMC"
+  },
+  {
+    "name": "Convolutional Neural Networks",
+    "issuer": "DeepLearning.AI",
+    "date": "Sep 2021",
+    "credentialId": "7RWVNPA566PS",
+    "link": "https://www.coursera.org/account/accomplishments/certificate/7RWVNPA566PS"
+  }
 ];
 
 export const skills = [
