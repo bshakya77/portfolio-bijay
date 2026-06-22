@@ -141,10 +141,10 @@ export const education = [
 export const certifications = [
   { name: "AI for Medical Diagnosis", issuer: "DeepLearning.AI", date: "Aug 2021", credentialId: "DQYNRHKGA6S7", link: "https://coursera.org/account/accomplishments/certificate/DQYNRHKGA6S7" },
   { name: "AI in Medical Prognosis", issuer: "DeepLearning.AI", date: "Aug 2021", credentialId: "TV7SAJZFLQZP", link: "https://coursera.org/account/accomplishments/certificate/TV7SAJZFLQZP" },
+  { name: "AI for Medicine",issuer: "DeepLearning.AI",date: "Sep 2021",credentialId: "7RWVNPA566PS", link: "https://www.coursera.org/account/accomplishments/certificate/7RWVNPA566PS"},
   { name: "Machine Learning", issuer: "Coursera", date: "Jul 2021", credentialId: "7KKGESU9MC8X", link: "https://coursera.org/share/33465c6910ec1887237433aab72a5720" },
-  { name: "AWS IoT: Developing and Deploying an Internet of Things", issuer: "Coursera", date: "Jun 2021", credentialId: "FYG N42W L7T V4", link: "https://coursera.org/account/accomplishments/certificate/FYGN42WL7TV4" },
   { name: "Intermediate Machine Learning", issuer: "Kaggle", date: "May 2021", credentialId: null, link: "https://kaggle.com/learn/certification/bijshakya77/intermediate-machine-learning" },
-  { name: "Internet of Things and the Cloud", issuer: "Alison", date: "May 2021", credentialId: "1614-15401379", link: "https://alison.com/certification/check/$2y$10$nDIQtHBZyO0yTAPCBx8YcuQ53SswbqI2IcAB5qGsqmB6.gglHdMc." },
+  { name: "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization", issuer: "DeepLearning.AI", date: "Apr 2022", credentialId: "58FJYLZU2Z5L", link: "https://www.coursera.org/account/accomplishments/certificate/58FJYLZU2Z5L"},
 ];
 
 export const additionalCertifications = [
@@ -155,13 +155,8 @@ export const additionalCertifications = [
     "credentialId": "YWMEUCD0HX0H",
     "link": "https://www.coursera.org/account/accomplishments/verify/YWMEUCD0HX0H"
   },
-  {
-    "name": "Intro to Machine Learning",
-    "issuer": "Kaggle",
-    "date": "Dec 2020",
-    "credentialId": null,
-    "link": "https://www.kaggle.com/learn/certification/bijshakya77/intro-to-machine-learning"
-  },
+  { "name": "AWS IoT: Developing and Deploying an Internet of Things", "issuer": "Coursera", "date": "Jun 2021", "credentialId": "FYG N42W L7T V4", "link": "https://coursera.org/account/accomplishments/certificate/FYGN42WL7TV4" },
+  { "name": "Internet of Things and the Cloud", "issuer": "Alison", date: "May 2021", "credentialId": "1614-15401379", "link": "https://alison.com/certification/check/$2y$10$nDIQtHBZyO0yTAPCBx8YcuQ53SswbqI2IcAB5qGsqmB6.gglHdMc." },
   {
     "name": "Building a Real-world app with ASP.NET Core and Angular 4+",
     "issuer": "Udemy",
@@ -175,6 +170,13 @@ export const additionalCertifications = [
     "date": "Apr 2016",
     "credentialId": "CN7SFW6ZZVSU",
     "link": "https://www.coursera.org/account/accomplishments/certificate/CN7SFW6ZZVSU"
+  },
+  {
+    "name": "Intro to Machine Learning",
+    "issuer": "Kaggle",
+    "date": "Dec 2020",
+    "credentialId": null,
+    "link": "https://www.kaggle.com/learn/certification/bijshakya77/intro-to-machine-learning"
   },
   {
     "name": "Fine-tuning Image Models with Diffusion",
@@ -198,7 +200,7 @@ export const additionalCertifications = [
     "link": "https://www.coursera.org/account/accomplishments/certificate/3N44PMLEVEF2"
   },
   {
-    "name": "Introduction to Computer Vision and Image Processing",
+    "name": "Unsupervised Learning, Recommenders, Reinforcement Learning",
     "issuer": "DeepLearning.AI",
     "date": "Nov 2022",
     "credentialId": "LNULJZSFE8E3",
@@ -219,25 +221,11 @@ export const additionalCertifications = [
     "link": "https://www.coursera.org/account/accomplishments/certificate/QHYVHKWWGEGJ"
   },
   {
-    "name": "Build Basic Generative Adversarial Networks (GANs)",
-    "issuer": "DeepLearning.AI",
-    "date": "Oct 2022",
-    "credentialId": "7DE5N48MRDB9",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/7DE5N48MRDB9"
-  },
-  {
     "name": "Fundamentals of Machine Learning for Healthcare",
     "issuer": "Stanford University",
     "date": "Apr 2022",
     "credentialId": "RHF5EJHAKV3L",
     "link": "https://www.coursera.org/account/accomplishments/certificate/RHF5EJHAKV3L"
-  },
-  {
-    "name": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
-    "issuer": "DeepLearning.AI",
-    "date": "Apr 2022",
-    "credentialId": "58FJYLZU2Z5L",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/58FJYLZU2Z5L"
   },
   {
     "name": "Deep Learning Essentials with Keras",
@@ -259,13 +247,6 @@ export const additionalCertifications = [
     "date": "Oct 2021",
     "credentialId": "EUZ3RQNCVJMC",
     "link": "https://www.coursera.org/account/accomplishments/certificate/EUZ3RQNCVJMC"
-  },
-  {
-    "name": "Convolutional Neural Networks",
-    "issuer": "DeepLearning.AI",
-    "date": "Sep 2021",
-    "credentialId": "7RWVNPA566PS",
-    "link": "https://www.coursera.org/account/accomplishments/certificate/7RWVNPA566PS"
   }
 ];
 
@@ -290,7 +271,7 @@ export const skills = [
   { name: "TensorFlow", category: "Frameworks", level: 85 },
   { name: "OpenCV", category: "Frameworks", level: 88 },
   { name: "Keras", category: "Frameworks", level: 82 },
-  { name: "YOLO Architectures", category: "Frameworks", level: 92 },
+  //{ name: "YOLO Architectures", category: "Frameworks", level: 92 },
   { name: "Ultralytics YOLO", category: "Frameworks", level: 90 },
   { name: "YOLOX / RT-DETR", category: "Frameworks", level: 85 },
   { name: "Pandas / NumPy", category: "Frameworks", level: 88 },
