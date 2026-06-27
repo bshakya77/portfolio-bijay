@@ -10,7 +10,7 @@ export const personalInfo = {
   college: "The Beacom College of Computer and Cyber Sciences",
   email: "bijshakya77@gmail.com",
   linkedin: "https://www.linkedin.com/in/bijshakya77/",
-  github: "https://github.com/bijshakya77",
+  //github: "https://github.com/bijshakya77",
   resume: "/Bijay_Shakya_PhD_Resume.pdf",
   googleScholar: "https://scholar.google.com/citations?user=E7IP6hcAAAAJ&hl=en",
   stats: [
