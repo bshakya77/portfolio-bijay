@@ -2,7 +2,7 @@
 
 import { personalInfo } from '@/app/data/portfolio-data'
 import { motion } from 'framer-motion'
-import { BookOpen, ChevronDown, Download, ExternalLink, Github, Linkedin, Mail, MapPin } from 'lucide-react'
+import { BookOpen, ChevronDown, Download, ExternalLink, Linkedin, Mail, MapPin } from 'lucide-react'
 import { CountUpNumber } from './count-up-number'
 
 export function HeroSection() {
@@ -100,15 +100,6 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.45 }}
             className="flex items-center justify-center gap-3 mb-12"
           >
-            <a
-              href={personalInfo?.github ?? '#'}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="w-9 h-9 rounded-lg bg-card border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary/50 transition-colors"
-            >
-              <Github className="w-4 h-4" />
-            </a>
             <a
               href={personalInfo?.linkedin ?? '#'}
               target="_blank"
