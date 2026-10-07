@@ -14,7 +14,7 @@ export const personalInfo = {
   resume: "/Bijay_Shakya_PhD_Resume.pdf",
   googleScholar: "https://scholar.google.com/citations?user=E7IP6hcAAAAJ&hl=en",
   stats: [
-    { label: "Publications", value: 7 },
+    { label: "Publications", value: 4 },
     { label: "Research Focus Areas", value: 5 },
     { label: "Certifications", value: 24 },
   ],
